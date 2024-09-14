@@ -1,0 +1,28 @@
+#generate {
+  background-color: #c0c7c0;
+  padding: 0px 10px;       /* 余白 */
+  border: 1px solid #000000; /* ボタンの枠線 */
+  border-radius: 5px;       /* 角を丸く */
+  cursor: pointer;
+}
+
+#generate:hover {
+  background-color: #919691;
+}
+
+#copy {
+  visibility : hidden;
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#copy:hover {
+  background-color: #799b7a;
+}
